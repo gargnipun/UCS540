@@ -1,0 +1,13 @@
+#include <stdio.h>
+#define MILES_TO_KM 1.609
+ 
+int main() {
+   float miles, kilometers;
+   printf("Enter distance in Miles: ");
+   scanf("%f", &miles);
+ 
+   kilometers = miles * MILES_TO_KM;
+ 
+   printf("%.2f Miles is equal to %.2f Kilometers\n", miles, kilometers);
+   return 0;
+}
